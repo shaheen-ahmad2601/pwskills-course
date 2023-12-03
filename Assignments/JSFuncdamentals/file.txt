@@ -30,4 +30,50 @@ let num = 5;
 let negNum = -num; 
 
 
+-----------------------------------------------part-2----------------------------------
 
+
+
+Question 1: Explain what JavaScript is and its role in web development.
+JavaScript is a high-level, interpreted programming language that is primarily used for web development. It enables the creation of dynamic, interactive web pages by allowing developers to manipulate the content and behavior of web pages in response to user actions
+
+
+
+Question 2: Explain the key differences between JavaScript and HTML. Provide examples of situations where you would use each.
+JavaScript:
+
+Role: Adds interactivity and dynamic behavior to web pages.
+Example: Form validation, creating sliders, handling user interactions.
+HTML:
+
+Role: Defines the structure and content of web pages.
+Example: Creating headings, paragraphs, lists, and embedding images.
+
+
+
+Question 3: List and describe the five primitive data types in JavaScript.
+Number: Represents numeric values (e.g., 5, 3.14).
+String: Represents textual data (e.g., "Hello, World!").
+Boolean: Represents true or false values.
+Undefined: Represents a variable that has been declared but not assigned a value.
+Null: Represents the absence of a value.
+
+
+Question 4: What is the purpose of declaring variables in JavaScript, and how do you declare them using the 'let' keyword?
+The purpose of declaring variables is to store and manage data in a program. In JavaScript, you can declare variables using the let keyword:
+let myVariable = 10;
+
+
+
+
+Question 5: Explain the importance of comments in JavaScript and provide examples of single-line and multi-line comments.
+Comments in JavaScript provide explanations and documentation within the code. They are not executed and are essential for code readability.
+
+
+Question 6: Explain the importance of choosing meaningful and descriptive variable names in JavaScript. Provide an example where using a clear identifier improves code readability.
+Choosing meaningful variable names enhances code readability and makes it easier for developers to understand the purpose of the variables. For example:
+// Not so clear
+let x = 10;
+
+// Clear and descriptive
+let numberOfItems = 10;
