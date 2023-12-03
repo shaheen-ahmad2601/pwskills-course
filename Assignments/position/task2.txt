@@ -1,0 +1,20 @@
+Problem Statement
+Explain the difference between Absolute and Relative positioning.
+
+Absolute Positioning:
+Definition: In absolute positioning, an element is positioned relative to its closest positioned (not static) ancestor element. If no ancestor is found, it is positioned relative to the initial containing block, which is usually the <html> element.
+
+Offset from Ancestor: The positioning is determined by using the top, right, bottom, and left properties, which specify the offset from the edges of the closest positioned ancestor.
+
+Document Flow: Elements with absolute positioning are removed from the normal document flow. This means they won't affect the positioning of other elements, and other elements won't affect them.
+
+
+
+
+
+Relative Positioning:
+Definition: In relative positioning, an element is positioned relative to its normal position in the document flow. The element retains its space in the normal flow, but it can be shifted from that position.
+
+Offset from Itself: The positioning is determined by using the top, right, bottom, and left properties, which specify the offset from the element's normal position.
+
+Document Flow: Elements with relative positioning do not affect the layout of surrounding elements. However, the space they would have occupied in the normal flow is preserved.
