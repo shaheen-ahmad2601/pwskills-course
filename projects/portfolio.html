@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        section {
+            width: 500px;
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            border: 1px solid rgb(193, 188, 188);
+        }
+
+       
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5em;
+            margin-bottom: 1em;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 0.5em;
+        }
+
+        .skills, .certificates {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .skill, .certificate {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 0.5em 1em;
+            margin: 0.5em;
+            border-radius: 4px;
+        }
+
+        .projects, .experience, .education {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .project, .job, .school {
+            flex: 0 0 48%;
+            margin-bottom: 1em;
+            box-sizing: border-box;
+        }
+        .left-margin{
+            position: relative;
+            right: 550px;
+        }
+    </style>
+</head>
+<body>
+
+    <section id="left">
+        <h1>Shaheen Ahmad</h1>
+        <p>Web Developer</p>
+        <p><a href="mailto:your.shaheen123mech@gmail.com">shaheen123mech@gmail.com</a></p>
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            
+            <!-- Add more skills as needed -->
+        </div>
+
+        
+        
+        <h2>Certificates</h2>
+        <div class="certificates">
+            <div class="certificate">automation at IIT delhi</div>
+            <div class="certificate">MERN stack</div>
+            <!-- Add more certificates as needed -->
+        </div>
+        <h2>Interests</h2>
+        <div class="certificates">
+            <div class="certificate">Cricket</div>
+            <div class="certificate">playing badminton</div>
+            <!-- Add more certificates as needed -->
+        </div>
+        <h2>Hobbies</h2>
+        <div class="certificates">
+            <div class="certificate">singing</div>
+            <div class="certificate">playing musical instruments</div>
+            <!-- Add more certificates as needed -->
+        </div>
+    </section>
+
+   <div class="left-margin">
+    <section id="right">
+        <h2>Objectives</h2>
+        <p>A driven and enthusiastic Full Stack Developer with a year of experience in developing dynamic web applications using MERN stack. Proficient in creating user-friendly and responsive user interfaces with React and integrating them with back-end systems built using Node.js and Express.</p>
+
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3> <a href="https://github.com/shaheen-ahmad2601/Adidas-clone-Project">Adidas clone</a> </h3>
+                <p>This is a clone of Adidas website and this is an Individual project. So I have created this webiste using React JS and Css and I have tried some of the frequently used functionality. Adidas Clone is a MERN Stack e-commerce web application that allows you to buy shoes & clothes online with payment gateway integration. It has a variety of categories, just visit the product listing page and you will see all the products, apply filters as per your need and in just a few clicks you can buy any products from the website. This project is just for educational purpose.</p>
+            </div>
+            <div class="project">
+                <h3><a href="https://github.com/shaheen-ahmad2601/React-TodoList">Todo List</a></h3>
+                <p>This is a Todo-App which can be used to track the daily work, you can easily track your work with the help of this. and added some completion and deletion functionality.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+
+        <h2>Work Experience</h2>
+        <div class="experience">
+            <div class="job">
+                <h3>SDE</h3>
+                <p>masai school</p>
+                <p>software engineer</p>
+            </div>
+            <div class="job">
+                <h3>Instructor</h3>
+                <p>Masai school</p>
+                <p>mentoring students</p>
+            </div>
+            <!-- Add more work experiences as needed -->
+        </div>
+
+        <h2>Education</h2>
+        <div class="education">
+            <div class="school">
+                <h3>B.tech</h3>
+                <p>RTU</p>
+            </div>
+            <div class="school">
+                <h3>MERN stack certification</h3>
+                <p>Masai school</p>
+            </div>
+            <!-- Add more education entries as needed -->
+        </div>
+    </section>
+   </div>
+
+</body>
+</html>
